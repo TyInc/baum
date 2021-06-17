@@ -1,3 +1,22 @@
+!! This is a fork of [etrepat/baum](https://github.com/etrepat/baum) on the v3 branch. After the current commit on this repository changes were made that broke the dependency for Ty Store so it was forked to keep it in the current state !!
+
+**Dependency Usage**
+
+```js
+// ...
+"require": {
+    "baum/baum": "v3.0.0",
+},
+// ...
+"repositories": [
+    {
+        "type": "vcs",
+        "url": "https://github.com/tyinc/baum.git"
+    }
+]
+// ...
+```
+
 # Baum
 
 [![Build Status](https://travis-ci.org/etrepat/baum.png?branch=master)](https://travis-ci.org/etrepat/baum)
